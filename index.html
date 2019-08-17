@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/united/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
     <title>Wordnet</title>
+    
+    <script type="text/javascript">
+    (function () {
+        window.siqConfig = {
+            engineKey: "dae96cd0857fa9ac5bea44a6877a235c",
+            forceLoadSettings: false        // change false to true if search box on your site is adding dynamically
+        };
+        window.siqConfig.baseUrl = "//pub.searchiq.co/";
+        var script = document.createElement("SCRIPT");
+        script.src = window.siqConfig.baseUrl + '/js/container/siq-container-2.js?cb=' + (Math.floor(Math.random()*999999)) + '&engineKey=' + siqConfig.engineKey;
+        script.id = "siq-container";
+        document.getElementsByTagName("HEAD")[0].appendChild(script);
+    })();
+</script>
+    
 </head>
 <body>
     
